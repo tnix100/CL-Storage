@@ -42,7 +42,7 @@ There is multiple kwargs that can be changed during initialization of CL Storage
 CLStorage(
     server,
     clpv4,
-    db_file = "cl_storage.db",  # changes what file the database is stored in (default: "cl_storage.db")
+    db_file = "cl_storage.db",  # changes which file the database is stored in (default: "cl_storage.db")
     disable_gmsg = True,  # disables storage of CL4 global messages (default: False)
     disable_pmsg = True,  # disables storage of CL4 private messages (default: False)
     disable_gvar = True,  # disables storage of CL4 global variables (default: False)
@@ -90,7 +90,7 @@ CREATE TABLE "scratch_vars" (
 ```
 
 ## Support
-If you require any assistance with getting CL Storage working on your server or just want to ask a question, please ping me (.tnix) in the CloudLink Discord server.
+If you require any assistance with getting CL Storage working on your server or just want to ask a question, please ping me (.tnix) in the [CloudLink Discord server](https://discord.gg/fzTdHAExV3).
 
 ## Future plans
 In the future I plan to add quotas to how many messages/variables a room can store at once and auto-deleting policies to help prevent spam and reduce storage usage.
